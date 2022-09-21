@@ -368,7 +368,7 @@ body {
         width: 435px;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 800px) {
     body {
         display: grid;
         grid-template-areas: "a b";
@@ -402,7 +402,7 @@ body {
 
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1100px) {
 
     .phone_outline {
         margin-left: 15em;
@@ -431,5 +431,13 @@ body {
     .booking {
         padding-left: 15em;
         padding-right: 15em;
+    }
+}
+
+@media (min-width: 1800px) {
+
+    .booking {
+        padding-left: 20em;
+        padding-right: 20em;
     }
 }
